@@ -1,0 +1,22 @@
+{
+  "name": "setdates",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rostok/setdates"
+  },
+  "version": "1.0.0",
+  "description": "recursively set file access modification time by pattern found in filename",
+  "main": "setdates.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "touch",
+    "filename"
+  ],
+  "author": "rostok",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
