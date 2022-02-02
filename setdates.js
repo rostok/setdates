@@ -80,5 +80,5 @@ function done(err,results) {
 
 // - - - - - - - - - - - - - - - - - - - - - 
 var dir = process.argv[2] || ".";
-
+console.log("setting dates for",dir);
 walk(dir, action, done);
